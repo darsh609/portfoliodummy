@@ -12,8 +12,8 @@ import proj4 from "../../Images/Project4.png"
 import proj2 from "../../Images/Project2.png"
 import proj7 from "../../Images/Project7.png"
 import visalta from "../../Images/Visalta.jpg"
-import pizzahub from "../images/Pizzahub.png";
-import groupPay from "../images/Group_Pay.png";
+import pizzahub from "../Images/Pizzahub.png";
+import groupPay from "../Images/Group_Pay.png";
 
 import { BsGithub, BsYoutube, BsInstagram, BsLinkedin, BsMailbox } from "react-icons/bs";
 export const ProjectCard = ({
