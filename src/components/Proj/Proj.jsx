@@ -12,6 +12,9 @@ import proj4 from "../../Images/Project4.png"
 import proj2 from "../../Images/Project2.png"
 import proj7 from "../../Images/Project7.png"
 import visalta from "../../Images/Visalta.jpg"
+import pizzahub from "../images/Pizzahub.png";
+import groupPay from "../images/Group_Pay.png";
+
 import { BsGithub, BsYoutube, BsInstagram, BsLinkedin, BsMailbox } from "react-icons/bs";
 export const ProjectCard = ({
     url,
@@ -55,6 +58,37 @@ const Proj = () => {
           </Typography>
     
           <div className="projectsWrapper">
+
+              <ProjectCard
+  id={"1"}
+  key={"1"}
+  url={"https://practice-api.vercel.app/"}
+  projectImage={pizzahub}
+  projectTitle={"PizzaHub – Food Ordering Platform"}
+  github={"https://github.com/darsh609"} 
+  description={
+    "A full-stack food ordering platform with cart management, order lifecycle, admin dashboard, and role-based authentication. Users can add items to cart, place orders, while admins manage products and orders."
+  }
+  technologies={
+    "React, Tailwind CSS, Node.js, Express.js, MongoDB, JWT"
+  }
+/>
+              <ProjectCard
+  id={"1"}
+  key={"1"}
+  url={"https://splitwise-clone-assgn.vercel.app/"}
+  projectImage={groupPay}
+  projectTitle={"Group Pay – Splitwise Clone"}
+  github={"https://github.com/darsh609"}
+  description={
+    "An expense sharing application inspired by Splitwise. Users can create groups, add shared expenses, track balances, and simplify settlements among group members."
+  }
+  technologies={
+    "React, Node.js, Express.js, MongoDB, Tailwind CSS"
+  }
+/>
+
+
           <ProjectCard
                 id={"1"}
                 key={"1"}
