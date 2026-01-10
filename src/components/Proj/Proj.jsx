@@ -59,6 +59,31 @@ const Proj = () => {
     
           <div className="projectsWrapper">
 
+          <ProjectCard
+                id={"1"}
+                key={"1"}
+                url={"https://visalta-final-qg3f.vercel.app/"}
+                
+                projectImage={visalta}
+                projectTitle={"Visalta-NITW"}
+                github={"https://github.com/ashishty23/visalta_final"}
+                description={" Leading a team of four to develop Visalta, platform enhancing student life at NIT Warangal"}
+                technologies={"Reactjs,Tailwind,Expressjs,MongoDB,Nodejs"}
+              />
+            
+              <ProjectCard
+                id={"1"}
+                key={"1"}
+                url={"https://darshstudynotion1718.vercel.app/                                                     "}
+                
+                projectImage={proj1}
+                projectTitle={"ED-TECH WEBSITE"}
+                github={"https://github.com/darsh609/StudyNotion-Project-Mern.git"}
+                description={" Revolutionize Learning with Our Ed-Tech Platform: Discover interactive lessons, personalized learning paths, and collaborative tools designed to empower educators and inspire students."}
+                technologies={"Reactjs,Tailwind,Expressjs,MongoDB,Nodejs"}
+              />
+
+              
               <ProjectCard
   id={"1"}
   key={"1"}
@@ -90,29 +115,6 @@ const Proj = () => {
 />
 
 
-          <ProjectCard
-                id={"1"}
-                key={"1"}
-                url={"https://visalta-final-qg3f.vercel.app/"}
-                
-                projectImage={visalta}
-                projectTitle={"Visalta-NITW"}
-                github={"https://github.com/ashishty23/visalta_final"}
-                description={" Leading a team of four to develop Visalta, platform enhancing student life at NIT Warangal"}
-                technologies={"Reactjs,Tailwind,Expressjs,MongoDB,Nodejs"}
-              />
-            
-              <ProjectCard
-                id={"1"}
-                key={"1"}
-                url={"https://darshstudynotion1718.vercel.app/                                                     "}
-                
-                projectImage={proj1}
-                projectTitle={"ED-TECH WEBSITE"}
-                github={"https://github.com/darsh609/StudyNotion-Project-Mern.git"}
-                description={" Revolutionize Learning with Our Ed-Tech Platform: Discover interactive lessons, personalized learning paths, and collaborative tools designed to empower educators and inspire students."}
-                technologies={"Reactjs,Tailwind,Expressjs,MongoDB,Nodejs"}
-              />
                <ProjectCard
                 id={"1"}
                 key={"1"}
